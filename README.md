@@ -8,10 +8,10 @@ For more information, please see the links below.
 
 ## Links
 - [Quick Start](https://docs.codecov.com/docs/quick-start)
-    - [GitHub Tutorial](https://docs.codecov.com/docs/github-tutorial)
-        - [Community Boards](https://community.codecov.io)
-            - [Support](https://codecov.io/support)
-                - [Documentation](https://docs.codecov.io)
+- [GitHub Tutorial](https://docs.codecov.com/docs/github-tutorial)
+- [Community Boards](https://community.codecov.io)
+- [Support](https://codecov.io/support)
+- [Documentation](https://docs.codecov.io)
 
 
 ## License
