@@ -1,9 +1,11 @@
-const {
+import { expect, test } from 'vitest'
+
+import {
   add,
-  subtract,
-  multiply,
   divide,
-} = require('./calculator');
+  multiply,
+  subtract,
+} from './calculator'
 
 test('add function', () => {
   expect(add(1, 2)).toBe(3);
