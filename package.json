@@ -9,6 +9,6 @@
     "vitest": "^1.0.4"
   },
   "devDependencies": {
-    "@vitest/coverage-v8": "^1.0.4"
+    "@vitest/coverage-v8": "^1.1.0"
   }
 }
