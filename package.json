@@ -1,6 +1,6 @@
 {
   "name": "@codecov/example-javascript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Codecov Example Javascript",
   "scripts": {
     "build": "vite build",
