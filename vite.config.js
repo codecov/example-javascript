@@ -2,6 +2,11 @@ import { defineConfig } from 'vitest/config'
 import { codecovVitePlugin } from "@codecov/vite-plugin";
 
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      // https://rollupjs.org/configuration-options/
+    },
+  },
   plugins: [
     // Put the Codecov vite plugin after all other plugins
     codecovVitePlugin({
