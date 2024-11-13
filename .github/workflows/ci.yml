@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5.0.0-beta
       - name: Set up Node 18
         uses: actions/setup-node@v3
         with:
@@ -15,6 +15,6 @@ jobs:
       - name: Run tests and collect coverage
         run: npm run test
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5.0.0-beta
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_ORG_TOKEN }}
