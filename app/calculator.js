@@ -6,4 +6,8 @@ const divide = (x, y) => {
   return x * 1.0 / y;
 }
 
-module.exports = { add, subtract, multiply, divide };
+const dummyFunction = () => {
+  return "This is a dummy function";
+}
+
+module.exports = { add, subtract, multiply, divide, dummyFunction };
